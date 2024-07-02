@@ -8,8 +8,9 @@ export default [
     facts: {
       species: 'Perro (Bloodhound)',
       speciesGroup: 'Perros',
+      gender: 'Macho',
       livesIn: 'Casa de Mickey Mouse',
-      filmGenre: ["Comedia", "Infantil"]
+      filmGenre: ['Comedia', 'Infantil']
     },
     extraInfo: {
       curiousFact: 'Pluto debutó en 1930 y originalmente era el perro de Minnie llamado Rover.'
@@ -24,8 +25,9 @@ export default [
     facts: {
       species: 'Camaleón',
       speciesGroup: 'Pequeñas especies',
+      gender: 'Macho',
       livesIn: 'Torre de Rapunzel',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Pascal está basado en el camaleón mascota de una de las animadoras de Disney.'
@@ -40,8 +42,9 @@ export default [
     facts: {
       species: 'Mono (Macaco)',
       speciesGroup: 'Pequeñas especies',
+      gender: 'Macho',
       livesIn: 'Agrabah',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Abu fue animado por el legendario animador de Disney Mark Henn.'
@@ -56,6 +59,7 @@ export default [
     facts: {
       species: 'Gato',
       speciesGroup: 'Gatos',
+      gender: 'Macho',
       livesIn: 'Taller de Geppetto',
       filmGenre: ['Fantasía']
     },
@@ -72,8 +76,9 @@ export default [
     facts: {
       species: 'Reno',
       speciesGroup: 'Animales Salvajes',
+      gender: 'Macho',
       livesIn: 'Arendelle',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Sven fue inspirado en parte por los perros de trineo que los animadores de Disney estudiaron.'
@@ -88,8 +93,9 @@ export default [
     facts: {
       species: 'Caballo alado',
       speciesGroup: 'Animales Salvajes',
+      gender: 'Macho',
       livesIn: 'Olimpo',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Fue creado a partir de una nube por Zeus para ser el compañero perfecto de Hércules.'
@@ -104,8 +110,9 @@ export default [
     facts: {
       species: 'Pez',
       speciesGroup: 'Animales Acuáticos',
+      gender: 'Macho',
       livesIn: 'Océano Atlántico',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Flounder, a pesar de su nombre (traducido del inglés), no es un lenguado sino un pez tropical ficticio.'
@@ -120,8 +127,9 @@ export default [
     facts: {
       species: 'Cerdo',
       speciesGroup: 'Animales de Granja',
+      gender: 'Macho',
       livesIn: 'Isla de Motonui',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Su nombre "Pua" significa "flor" en hawaiano, reflejando su dulzura y ternura.'
@@ -136,8 +144,9 @@ export default [
     facts: {
       species: 'Tigre de Bengala',
       speciesGroup: 'Animales Salvajes',
+      gender: 'Macho',
       livesIn: 'Palacio de Agrabah',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Rajah fue un regalo del Sultán a Jasmín, y es tan protector que incluso asusta a los pretendientes indeseados.'
@@ -152,8 +161,9 @@ export default [
     facts: {
       species: 'Mapache',
       speciesGroup: 'Roedores',
+      gender: 'Macho',
       livesIn: 'Bosques de Virginia',
-      filmGenre: ['Drama', 'Musical']
+      filmGenre: ['Drama', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Meeko tiene una debilidad por las galletas y siempre busca la manera de conseguir más.'
@@ -168,8 +178,9 @@ export default [
     facts: {
       species: 'Conejo',
       speciesGroup: 'Animales Salvajes',
+      gender: 'Macho',
       livesIn: 'Bosque',
-      filmGenre: ['Drama', 'Infantil']
+      filmGenre: ['Drama', ' Infantil']
     },
     extraInfo: {
       curiousFact: 'Thumper no estaba en el libro original "Bambi, una vida en el bosque", fue creado para la película.'
@@ -184,8 +195,9 @@ export default [
     facts: {
       species: 'Perro (Xoloitzcuintle)',
       speciesGroup: 'Perros',
+      gender: 'Macho',
       livesIn: 'Pueblo de Santa Cecilia',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Dante es un Xoloitzcuintle, una raza antigua de perro mexicana.'
@@ -200,8 +212,9 @@ export default [
     facts: {
       species: 'Cangrejo',
       speciesGroup: 'Animales Acuáticos',
+      gender: 'Macho',
       liveIn: 'Mar Caribe',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'La canción "Bajo el mar" interpretada por Sebastián ganó el Óscar a la Mejor Canción Original en 1989.',
@@ -216,8 +229,9 @@ export default [
     facts: {
       species: 'Caballo',
       speciesGroup: 'Animales de Granja',
+      gender: 'Macho',
       liveIn: 'Reino de Corona',
-      filmGenre: ['Comedia', 'Musical']
+      filmGenre: ['Comedia', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Maximus fue inspirado por los perros de policía en cuanto a su comportamiento y personalidad.'
@@ -232,6 +246,7 @@ export default [
     facts: {
       species: 'Búho',
       speciesGroup: 'Aves',
+      gender: 'Macho',
       liveIn: 'Desconocido',
       filmGenre: ['Fantasía']
     },
@@ -248,8 +263,9 @@ export default [
     facts: {
       species: 'Grillo',
       speciesGroup: 'Pequeñas especies',
+      gender: 'Macho',
       liveIn: 'Aldea de Mulán',
-      filmGenre: ['Drama', 'Musical']
+      filmGenre: ['Drama', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Sus sonidos fueron creados por el legendario actor de voz Frank Welker, quien también ha dado vida a personajes como Scooby-Doo y el gato Garfield.'
@@ -264,8 +280,9 @@ export default [
     facts: {
       species: 'Gorila',
       speciesGroup: 'Animales Salvajes',
+      gender: 'Hembra',
       liveIn: 'Selva Africana',
-      filmGenre: ['Drama', 'Musical']
+      filmGenre: ['Drama', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Terk fue originalmente escrita como un personaje masculino, pero se cambió a femenino durante el desarrollo de la película.'
@@ -280,8 +297,9 @@ export default [
     facts: {
       species: 'Perro (Dálmata)',
       speciesGroup: 'Perros',
+      gender: 'Macho',
       liveIn: 'Londres, Inglaterra',
-      filmGenre: ['Comedia', 'Familia']
+      filmGenre: ['Comedia', ' Familia']
     },
     extraInfo: {
       curiousFact: 'Pongo y Perdita tienen en total 101 cachorros, incluyendo a los adoptados, haciendo honor al título de la película.'
@@ -296,8 +314,9 @@ export default [
     facts: {
       species: 'Gaviota',
       speciesGroup: 'Aves',
+      gender: 'Macho',
       liveIn: 'Océano',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Scuttle fue interpretado por el comediante Buddy Hackett, quien añadió mucho de su propio humor al personaje.'
@@ -312,8 +331,9 @@ export default [
     facts: {
       species: 'Ratones',
       speciesGroup: 'Roedores',
+      gender: 'Macho',
       liveIn: 'Casa de Cenicienta',
-      filmGenre: ['Fantasía', 'Romance', 'Musical']
+      filmGenre: ['Fantasía', ' Romance', ' Musical']
     },
     extraInfo: {
       curiousFact: 'Gus es conocido por sus problemas para pronunciar palabras correctamente, mientras que Jaq suele liderar las misiones de rescate.'
@@ -328,6 +348,7 @@ export default [
     facts: {
       species: 'Gato',
       speciesGroup: 'Gatos',
+      gender: 'Macho',
       liveIn: 'Orfanato de Penny',
       filmGenre: ['Drama']
     },
@@ -344,6 +365,7 @@ export default [
     facts: {
       species: 'Perro (Pastor Alemán)',
       speciesGroup: 'Perros',
+      gender: 'Macho',
       liveIn: 'Set de TV de Hollywood',
       filmGenre: ['Comedia']
     },
@@ -360,8 +382,9 @@ export default [
     facts: {
       species: 'Gallo',
       speciesGroup: 'Aves',
+      gender: 'Macho',
       liveIn: 'Isla de Motunui',
-      filmGenre: ['Fantasía', 'Musical']
+      filmGenre: ['Fantasía', ' Musical']
     },
     extraInfo: {
       curiousFact: 'HeiHei fue originalmente concebido como un personaje inteligente y astuto, pero se cambió para ser cómico y despistado.'
@@ -376,8 +399,9 @@ export default [
     facts: {
       species: 'Perro (Bloodhound)',
       speciesGroup: 'Perros',
+      gender: 'Macho',
       liveIn: 'Casa de Cenicienta',
-      filmGenre: ["Fantasía", "Romance", "Musical"]
+      filmGenre: ["Fantasía", " Romance", " Musical"]
     },
     extraInfo: {
       curiousFact: 'Bruno se transforma en un caballo que ayuda a Cenicienta a ir al baile.'

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
@@ -32,7 +32,7 @@
         </button>
       </div>
       <div id="disney-castle">
-        <img id="imgCastilloDisney" src="https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/castillo%20de%20disney%20-%20header.png" alt="Aquí había un castillo de Disney">
+        <img id="imgCastilloDisney" class="castle" src="https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/castillo%20de%20disney%20-%20header.png" alt="Aquí había un castillo de Disney">
       </div>
     </header>
     <main id="mainContenidoPrincipal">
@@ -56,12 +56,50 @@
         </div>
       </nav>
       <aside>
-        <p> Filtra a las mascotas</p>
-        <p> Grupo de Especies </p>
-        <p> Grupo de Especies </p>      
-      </aside>
-    
-      <section id="grupoTarjetas"></section>
+        <p>FILTRA A TUS PERSONAJES</p>      
+
+        <label for="sort-select">Orden alfabético:</label>
+        <select name="ordenar" id="sort-select" data-testid="select-filter">
+          <option value="opcion">Elige una opción</option>
+          <option value="asc">Ascendente</option>
+          <option value="desc">Descendente</option>        
+        </select>
+
+
+        <label for="gender-select">Género:</label>
+        <select name="genero" id="gender-select" data-testid="select-filter">
+          <option value="opcion">Elige una opción</option>
+          <option value="Hembra">Hembra</option>
+          <option value="Macho">Macho</option>        
+        </select>
+
+        <label for="specie-select">Tipo de mascota:</label>
+        <select name="speciesGroup" id="specie-select" data-testid="select-filter">
+          <option value="opcion">Elige una opción</option>
+          <option value="Perros">Perros</option>
+          <option value="Gatos">Gatos</option>
+          <option value="Pequeñas especies">Pequeñas especies</option>
+          <option value="Animales Salvajes">Animales salvajes</option>
+          <option value="Animales Acuáticos">Animales acuáticos</option>
+          <option value="Animales de Granja">Animales de granja</option>
+          <option value="Roedores">Roedores</option>
+          <option value="Aves">Aves</option>          
+        </select>
+               
+        <label for="film-select">Pertenece a una película de:</label>
+        <select name="filmGenre" id="film-select" data-testid="select-filter">
+          <option value="opcion">Elige una opción</option>
+          <option value="Comedia">Comedia</option>
+          <option value="Infantil">Infantil</option>
+          <option value="Fantasía">Fantasía</option>
+          <option value="Musical">Musical</option>
+          <option value="Drama">Drama</option>
+          <option value="Romance">Romance</option>
+        </select>
+        <button id="btnLimpiar" data-testid="button-clear">Limpiar filtros</button>
+   
+      </aside>    
+      <section id="root"></section>      
     </main>
     
     <footer>
