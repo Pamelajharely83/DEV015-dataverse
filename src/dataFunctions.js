@@ -1,17 +1,3 @@
-/*Funcion filterData(data, filterBy, value), recibe tres parámetros: 
-  El primer parámetro, data, nos entrega los datos. ¿del dataset?
-  El segundo parámetro, filterBy, nos dice con respecto a cuál de los campos de la data se quiere filtrar (speciesGroup)
-  El tercer parámetro, value, indica el valor de campo que queremos filtrar.  */
-
-//1) Definir un arreglo, cada objeto con sus propiedades / const functionData = (data)->arreglo de mascotas
-//2) Definir una variable que guarde la función del filtrado
-//3) Usar método filter() / data.filter
-//4) El metodo se aplica sobre el arreglo
-//5) Dentro del metodo crear la condicion de filtrado (grupo de especies)
-//6) Resultado: obtener un nuevo arreglo (dataFiltrada)
-//7) El nuevo arreglo contiene solo a los personajes que cumplen con la condicion
-//Console.log, mostrará en la consola la data filtrada
-
 export const filterData = (data, filterBy, value) => {
   if (filterBy === "gender") {
     const filterGender = data.filter((item) => item.facts.gender === value);
@@ -34,28 +20,18 @@ export const filterData = (data, filterBy, value) => {
 };
 
 export const sortData = (data, sortBy, sortOrder) => {
-  if (sortBy === 'name'){
-    data.sort(function(a, b){
-      if (sortOrder === 'asc'){
-        return a.name.localeCompare(b.name)
-      } else if (sortOrder == 'desc'){
-        return b.name.localeCompare(a.name)
+  if (sortBy === 'name'){ 
+    data.sort(function (a, b) {
+      if (sortOrder === 'ascendente'){       //Añadir el parametro sortOrder ascendente
+        if (a.name < b.name) return -1;      //a aparece antes  
+        if (a.name > b.name) return 1;       //b aparece antes     
       }
-      return 0
-    })
-  };
-  return data
-};
-
-  /*if (sortBy === 'name'){ 
-      data.sort(function (a, b) {
-      if (a.sortBy > b.sortBy) {            //falta el parametro sortOrder
-        //return sortOrder === 'asc' 1;
-        return 1;
+      if (sortOrder === 'descendente'){      //Añadir el parametro sortOrder descendente; la lógica de invierte
+        if (a.name < b.name) return 1;       //a aparece antes  
+        if (a.name > b.name) return -1;      //b aparece antes     
       }
-      if (a.name < b.name) {     
-        return -1;
-      }
-      return 0;
+      return 0;                              //si son iguales no se cambia el orden 
     });
-  };*/
+    return data                              //retornar la data ordenada
+  }
+};
