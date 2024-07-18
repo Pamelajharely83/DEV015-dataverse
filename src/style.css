@@ -16,7 +16,7 @@ body {
 
 /*TITULO DE LA PÁGINA*/
 h1 {
-  border: 2px dashed rgb(0, 255, 81); /*Borde para identificarlo*/
+  /*border: 2px dashed rgb(0, 255, 81); /*Borde para identificarlo*/
   font-size: 1.9em;
   display: flex;
   flex-direction: row;
@@ -31,7 +31,7 @@ h1 {
 }
 /*SUBTITULO DE BIENVENIDA*/
 h2 {
-  border: 2px dashed red;
+  /*border: 2px dashed red;*/
   font-size: 1.6em;
   text-align: center;
   margin: 15px;
@@ -39,7 +39,7 @@ h2 {
 }
 /*TEXTO DE BIENVENIDA*/
 #parrafoBienvenidos {
-  border: 2px dashed rgb(63, 58, 58); /*Borde para identificarlo*/
+  /*border: 2px dashed rgb(63, 58, 58); /*Borde para identificarlo*/
   font-size: 0.9em;
   text-align: center;
   margin: 15px;
@@ -57,7 +57,9 @@ header{         /*ESTILO PARA PANTALLA DE ESCRITORIO*/
     height: 100vh;                              /*El elemento va a ocupar toda la altura visible del navegador*/
     background: radial-gradient(92.68% 92.68% at 50% 69.48%, #12BBF0 17%, #0180CB 66%, #01387F 100%); /*Fondo*/
     width: 100%;
+    background-image: url(https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/background_main-head.jpg);
 }
+
 /*CONTENDER (DIV) DE HEADER*/
 header .container {
   /*ESTILO MOBILE FIRST*/
@@ -93,12 +95,11 @@ header .text-header {
   background-color: #d39401;
 }
 
-
 /*MAIN-BARRA DE FILTRO, BOTONES DE ORDENAR*/
 main {
-    /*border: 2px solid rgb(255, 0, 217);*/                    /*para chequear como se está moviendo*/
-    width: 100%;                                  /*para que vaya acorde al body*/
-    background-color: #E4F3FF;
+  /*border: 2px solid rgb(255, 0, 217);*/ /*para chequear como se está moviendo*/
+  width: 100%; /*para que vaya acorde al body*/
+  background-color: #e4f3ff;
 }
 /*CONTENEDOR DEL MAIN*/
 /*main .container{
@@ -110,26 +111,26 @@ main {
 /*ELEMENTOS DEL FILTRO Y ORDENAR*/
 /*BARRA DE FILTRO Y ORDENADO*/
 #barra-filtro-ordenar {
-    /*border: 2px dashed red;*/
-    height: 4.5vh;                                     /*Largo de la barra*/
-    width: 100%;                                  /*para que vaya acorde a main*/
-    padding: 3vw;
-    background-color: #D1EBFF;                  /*color del fondo*/
-    box-shadow: 0px 6px 6.2px rgba(0, 0, 0, 0.25); /*sombra*/
-    display: flex;                                /*Display flexible*/
-    flex-direction: row-reverse;                          /*Direccion horizontal hacia la derecha*/
-    align-items: center;                          /*Alineación de los hijos en el eje vertical*/
-    justify-content: space-between;                   /*Alineación de los hijos en el eje horizontal los elementos se distribuyen uniformemente en la línea*/
+  /*border: 2px dashed red;*/
+  height: 4.5vh; /*Largo de la barra*/
+  width: 100%; /*para que vaya acorde a main*/
+  padding: 3vw;
+  background-color: #d1ebff; /*color del fondo*/
+  box-shadow: 0px 6px 6.2px rgba(0, 0, 0, 0.25); /*sombra*/
+  display: flex; /*Display flexible*/
+  flex-direction: row-reverse; /*Direccion horizontal hacia la derecha*/
+  align-items: center; /*Alineación de los hijos en el eje vertical*/
+  justify-content: space-between; /*Alineación de los hijos en el eje horizontal los elementos se distribuyen uniformemente en la línea*/
 }
 /*ICONOS DE FILTRO Y ORDENAR*/
 i {
-    color: #FFB80D;                             /*color del icono*/
-    font-size: 15px;                              /*tamaño de icono, funciona como una fuente, no como una imagen, por lo que no se le puede aplicar ancho y/o alto*/
-    padding: 5px;                                 /*Separación del acolchado*/
-    border: 2px solid #FFB80D;                  /*Borde para que se distingan los botones*/
-    border-radius: 100px;                           /*El objetivo es poder poner en redondo los iconos de ordenar y en cuadraro el de filtro*/
-    cursor: pointer;                              /*El cursor se vuelve una mano al posicionarse sobre el botón*/
-    /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);*/
+  color: #ffb80d; /*color del icono*/
+  font-size: 15px; /*tamaño de icono, funciona como una fuente, no como una imagen, por lo que no se le puede aplicar ancho y/o alto*/
+  padding: 5px; /*Separación del acolchado*/
+  border: 2px solid #ffb80d; /*Borde para que se distingan los botones*/
+  border-radius: 100px; /*El objetivo es poder poner en redondo los iconos de ordenar y en cuadraro el de filtro*/
+  cursor: pointer; /*El cursor se vuelve una mano al posicionarse sobre el botón*/
+  /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);*/
 }
 /*CONTENEDOR DEL FILTRO*/
 #div-filtro {
@@ -138,18 +139,18 @@ i {
   align-items: center; /*los elementos (texto e icono) se alineen al centro de manera vertical*/
 }
 /*BOTON DE FILTRO*/
-#btn-filter{
-    background-color: #D1EBFF;                  /*para que tenga el mismo color que la barra de filtro y orden*/
-    border: none;                                 /*para que no tenga bordes*/
-    padding: 0px;
-    font-family: 'Poppins';
-    font-weight: bold;                            /*pone en negrita la letra*/
-    font-size: 16px;                              /*tamaño de la letra*/
-    color: #0180CB;
+#btn-filter {
+  background-color: #d1ebff; /*para que tenga el mismo color que la barra de filtro y orden*/
+  border: none; /*para que no tenga bordes*/
+  padding: 0px;
+  font-family: "Poppins";
+  font-weight: bold; /*pone en negrita la letra*/
+  font-size: 16px; /*tamaño de la letra*/
+  color: #0180cb;
 }
 /*ETIQUETA DEL ICONO FILTRO*/
-.label-filtro{
-    display: none;
+.label-filtro {
+  display: none;
 }
 /*CONTENEDEOR DE BOTONES ORDENAR*/
 #div-ordenar {
@@ -168,27 +169,26 @@ i {
 }
 /*ETIQUETA DE ORDENAR*/
 #label-ordenar {
-    display: none;                         /*Version mobile*/
+  display: none; /*Version mobile*/
 }
 /*BOTON DE ESTADISTICAS*/
-#btn-stats{
-    background: #0180CB;
-    /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);*/
-    border-radius: 95px;
-    border: none;
-    padding: 6px 12px;
-    color: white;                               /*Color del texto del boton*/
-    cursor: pointer;                              /*El cursor se vuelve una mano al posicionarse sobre el botón*/
-    font-size: 0.75em;
-    font-weight: bold;
+#btn-stats {
+  background: #0180cb;
+  /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);*/
+  border-radius: 95px;
+  border: none;
+  padding: 6px 12px;
+  color: white; /*Color del texto del boton*/
+  cursor: pointer; /*El cursor se vuelve una mano al posicionarse sobre el botón*/
+  font-size: 0.75em;
+  font-weight: bold;
 }
 
-
 /*MENÚ DE FILTROS FUNCIONALES*/
-aside{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+aside {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 /*CONTENEDOR DE LOS FILTROS FUNCIONALES*/
 aside .container{
@@ -196,102 +196,98 @@ aside .container{
     height: 130px;
     margin: 15px;
     columns:2;
+    transition: display 0.6s;
 }
 /*LINEA "FILTRA A LAS MASCOTAS"*/
 /*#filtra{
     background-color: #f7dc56;                  /*para que tenga el mismo color que la barra de filtro y orden*/
-    /*border: none;                                 /*para que no tenga bordes*/
-    /*padding: 0px;
+/*border: none;                                 /*para que no tenga bordes*/
+/*padding: 0px;
     /*font-family: 'Poppins';
     /*font-weight: bold;                            /*pone en negrita la letra*/
-    /*font-size: 16px;                              /*tamaño de la letra*/
-    /*color: #045a8c;
+/*font-size: 16px;                              /*tamaño de la letra*/
+/*color: #045a8c;
 }*/
 /*SELECT DE LOS FILTROS*/
-select{
-    appearance: none;                         /*Especificar al navegador que no apliquen nignuna apariencia por defecto y poder editar el css*/
-	text-align: center;
-	cursor: pointer;
-  	padding: 5px 7px;
-  	height: 26px;
-    width: 140px;
-    background: #f0f0f0;
-	color: #7b7b7b;
-	font-size: 0.7em;
-	color: #999;
-	border:2px solid rgba(0,0,0,0.2);
-    border-radius: 12px;
-    position: relative;
-    transition: all 0.25s ease
+select {
+  appearance: none; /*Especificar al navegador que no apliquen nignuna apariencia por defecto y poder editar el css*/
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 7px;
+  height: 26px;
+  width: 140px;
+  background: #f0f0f0;
+  color: #7b7b7b;
+  font-size: 0.7em;
+  color: #999;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
 }
-select:hover{
-    background: #B1E8CD;
+select:hover {
+  background: #b1e8cd;
 }
 /*CONTENDEDOR DE LA ETIQUETA Y EL SELECT*/
-.div-select{
-    /*border: 2px dashed red;*/
-    max-width: 180px;
-    margin: 6px 6px;
+.div-select {
+  /*border: 2px dashed red;*/
+  max-width: 180px;
+  margin: 6px 6px;
 }
 /*ETIQUETAS DE CADA FILTRO*/
-.label{
-    /*border: 2px dashed red;*/
-    padding: 0;
-    margin: 2px;
-    font-family: 'Poppins';
-    font-weight: bold;                            /*pone en negrita la letra*/
-    font-size: 16px;                              /*tamaño de la letra*/
-    color: #0180CB;
-    cursor:pointer;
-    font-size: 0.7em;
+.label {
+  /*border: 2px dashed red;*/
+  padding: 0;
+  margin: 2px;
+  font-family: "Poppins";
+  font-weight: bold; /*pone en negrita la letra*/
+  font-size: 16px; /*tamaño de la letra*/
+  color: #0180cb;
+  cursor: pointer;
+  font-size: 0.7em;
 }
 /*BOTON LIMPIAR FILTROS*/
-#btnClear{                 
-    background-color: #FFB80D;                  /*Color de fondo del boton*/
-    color: white;                               /*Color del texto del boton*/                           
-    /*border: 2px solid rgba(199, 16, 46, 0.5);*/
-    font-size: 0.8em;
-    font-weight: bold;
-    cursor: pointer;                              /*El cursor se vuelve una mano al posicionarse sobre el botón*/
-    border-radius: 95px;                       /*Borde redondeado*/
-    border:none;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 10px 20px;
-    margin: 10px;
+#btnClear {
+  background-color: #ffb80d; /*Color de fondo del boton*/
+  color: white; /*Color del texto del boton*/
+  /*border: 2px solid rgba(199, 16, 46, 0.5);*/
+  font-size: 0.8em;
+  font-weight: bold;
+  cursor: pointer; /*El cursor se vuelve una mano al posicionarse sobre el botón*/
+  border-radius: 95px; /*Borde redondeado*/
+  border: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px;
+  margin: 10px;
 }
 #btnClear:hover {
   background-color: #d39401;
 }
 
-
-
-
-
-
 /*TARJETAS*/
 /*SECTION QUE CONTIENE AL ul*/
 #root {
-    /*border: 2px solid black;*/
-    padding: 0px;
-    width: 100%;
+  /*border: 2px solid black;*/
+  padding: 0px;
+  width: 100%;
 }
 /*ul QUE CONTIENE A LOS li*/
 .flex-container {
-    list-style: none;
-    padding: 0px;
-    /*border: 2px dashed red;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+  list-style: none;
+  padding: 0px;
+  /*border: 2px dashed red;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 /*TARJETAS INDIVIDUALES - TEXTO*/
 /*CONTENEDOR DE CADA TARJETA*/
 #text-card {
-    border: 2px dashed red;
+    /*border: 2px dashed red;*/
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -308,7 +304,7 @@ select:hover{
 }
 /*CONTENEDOR DEL TEXTO*/
 #text {
-    border: 2px dashed rgb(0, 42, 255);
+    /*border: 2px dashed rgb(0, 42, 255);*/
     display: flex;
     width: 290px;
     max-width: 290px;
@@ -323,9 +319,9 @@ select:hover{
   font-weight: bold;
   font-size: 20px;
 }
-#shortDesc{
-    text-align: center;
-    font-style: italic;
+#shortDesc {
+  text-align: center;
+  font-style: italic;
 }
 .spanFacts {
   color: #01387f;
@@ -360,14 +356,19 @@ select:hover{
   height: 75%;
   max-height: 75%;
 }
-footer .container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    height: 40px;
-    margin-top: 15px;
-    background: radial-gradient(92.68% 92.68% at 50% 69.48%, #12BBF0 17%, #0180CB 66%, #01387F 100%);
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  background: radial-gradient(
+    92.68% 92.68% at 50% 69.48%,
+    #12bbf0 17%,
+    #0180cb 66%,
+    #01387f 100%
+  );
 }
 footer p {
   font-size: 0.75em;
@@ -375,7 +376,6 @@ footer p {
   padding: 3px;
   margin: 0px;
 }
-
 
 /*MODAL*/
 .modal{
@@ -398,7 +398,7 @@ footer p {
     transition: opacity .6s;                /*Transicion a la opacidad para que tarde 6s ser visible y no aparezca de golpe el modal*/
 }
 .modal-container{  
-    border: 2px dashed rgb(251, 248, 93);                
+    /*border: 2px dashed rgb(251, 248, 93); */               
     margin: auto;                              /*Desktop*/    /*Porque su padre (modal) tiene un display flex*/
     width: 80%;
     height: 70%;
@@ -414,18 +414,38 @@ footer p {
 }
 /*El margin auto es para que centre horizontal y verticalmente nuestro contenedor*/
 /*TITULO DEL MODAL*/
+.container-percentage{
+    /*border: 2px dashed rgb(251, 93, 214);*/
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
 .title-modal{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #E4F3FF;
 }
 /*TEXTO DE LOS PORCENTAJES*/
 .stats-paragraph{
+    margin: 10px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: white;
-    border: 2px dashed rgb(251, 93, 214);
-   
+    /*border: 2px dashed rgb(251, 93, 214);*/
+}
+/*TEXTO DE LOS PORCENTAJES*/
+.valor{
+    color: #FCCA51;
+    font-weight: 600;
+}
+.porcentaje{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    color: #FCCA51;
 }
 /*BOTON PARA BORRAR EL MODAL*/
 .modal-close{
@@ -515,9 +535,9 @@ footer p {
         text-align: center;   
     }
     .modal-container{  
-        margin: auto;                              /*Desktop*/    /*Porque su padre (modal) tiene un display flex*/
+        margin: auto;                                /*Porque su padre (modal) tiene un display flex*/
         width: 50%;
-        height: 60%;
+        height: 70%;
         padding: 3em;
     }
     .title-modal{
@@ -525,14 +545,13 @@ footer p {
     }
     .stats-paragraph{
         font-size: 1.1em;
-        border: 2px dashed rgb(251, 93, 214);
+        /*border: 2px dashed rgb(251, 93, 214);*/
     }
     /*BOTON PARA BORRAR EL MODAL*/
     .modal-close{
         font-size: 1.1em;
     }
 }
-
 
 /*PC*/
 @media(min-width:1024px){                  /*Cuando la pantalla supere los 1024px se ejecturaran las siguientes condiciones*/
@@ -575,7 +594,7 @@ footer p {
         height: 5vh;
     }
     aside .container{
-        border: 2px dashed rgb(0, 255, 81);
+        /*border: 2px dashed rgb(0, 255, 81);*/
         height: 12vh;
         padding: 0px 8px;
         width: 90%;
@@ -628,7 +647,7 @@ footer p {
     }
     .stats-paragraph{
         font-size: 0.8em;
-        border: 2px dashed rgb(251, 93, 214);
+        /*border: 2px dashed rgb(251, 93, 214);*/
     }
     /*BOTON PARA BORRAR EL MODAL*/
     .modal-close{
@@ -636,4 +655,3 @@ footer p {
         font-size: 0.9em;
     }
 }
-

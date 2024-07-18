@@ -20,35 +20,39 @@
     <header>
       <div class="container">
         <div clas="text-header">
-          <h1>  
-            <img 
+          <h1>
+            <img
               id="imgLogoDisney"
               src="https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/logo%20disney.png"
               alt="DISNEY"
-            />  
+            />
             MASCOTAS
-          </h1>  
-          <h2>¡BIENVENIDOS!</h2>        
+          </h1>
+          <h2>¡BIENVENIDOS!</h2>
           <p id="parrafoBienvenidos">
             Descubre el mágico mundo de las mascotas de Disney. Conoce las
-            historias, aventuras y datos curiosos de los adorables compañeros
-            de tus personajes favoritos de Disney. Desde el valiente Maximus
-            hasta el travieso Abu, ¡explora todo lo que hace especiales a
-            estos encantadores animales!
+            historias, aventuras y datos curiosos de los adorables compañeros de
+            tus personajes favoritos de Disney. Desde el valiente Maximus hasta
+            el travieso Abu, ¡explora todo lo que hace especiales a estos
+            encantadores animales!
           </p>
         </div>
-        <a href="#mainContenidoPrincipal" id="btnConocelos">¡Quiero conocerlos!</a>
+        <a href="#mainContenidoPrincipal" id="btnConocelos"
+          >¡Quiero conocerlos!</a
+        >
       </div>
     </header>
     <main id="mainContenidoPrincipal">
-     <div class="container">
+      <div class="container">
         <nav>
           <div id="barra-filtro-ordenar">
             <div id="div-filtro">
               <button id="btn-filter">
                 <i class="fas fa-bars filter-icon"></i>
               </button>
-              <label for="filter" class="label-filtro">Filtros de búsqueda</label>
+              <label for="filter" class="label-filtro"
+                >Filtros de búsqueda</label
+              >
             </div>
             <div id="div-ordenar">
               <button id="btnUp">
@@ -59,57 +63,76 @@
               </button>
               <label id="label-ordenar">Ordenar</label>
             </div>
-          <button id="btn-stats">¿Sabías qué...?</button>
+            <button id="btn-stats">¿Sabías qué...?</button>
           </div>
         </nav>
-       <aside>
-         <div class="container">
-           <!--<p id="filtra">FILTRA A LAS MASCOTAS:</p>-->
-           <div class="div-select">
-             <label class="label" for="gender-select">Género:</label>
-             <select name="genero" id="gender-select" data-testid="select-filter">
-             <option value="" disable selected hidden>Elige una opción</option>
-             <option value="Hembra">Hembra</option>
-             <option value="Macho">Macho</option>
-             </select>
-           </div>
-           <div class="div-select">
-             <label class="label" for="specie-select">Tipo de mascota:</label>
-             <select name="speciesGroup" id="specie-select" data-testid="select-filter">
-             <option value="" disable selected hidden>Elige una opción</option>
-             <option value="Aves">Aves</option>
-             <option value="Animales Acuáticos">Acuáticos</option>
-             <option value="Domestico">Domesticos</option>
-             <option value="Pequeñas especies">Especies pequeñas</option>
-             <option value="Animales de Granja">Granja</option>
-             <option value="Animales Salvajes">Salvajes</option>                 
-             </select>
-           </div>
-           <div class="div-select">
-             <label class="label" for="film-select">Es de una película de:</label>
-             <select name="filmGenre" id="film-select" data-testid="select-filter">
-             <option value="" disable selected hidden>Elige una opción</option>
-             <option value="Comedia">Comedia</option>
-             <option value="Infantil">Infantil</option>
-             <option value="Fantasía">Fantasía</option>
-             <option value="Musical">Musical</option>
-             <option value="Drama">Drama</option>
-             <option value="Romance">Romance</option>
-             </select>
-           </div>
-           <button id="btnClear" data-testid="button-clear">
-            Limpiar filtros
-           </button>          
-         </div>
-       </aside>
-       <section id="root"></section>
-     </div>
+        <aside>
+          <div class="container">
+            <div class="div-select">
+              <label class="label" for="gender-select">Género:</label>
+              <select
+                name="genero"
+                id="gender-select"
+                data-testid="select-filter"
+              >
+                <option value="" disable selected hidden>
+                  Elige una opción
+                </option>
+                <option value="Hembra">Hembra</option>
+                <option value="Macho">Macho</option>
+              </select>
+            </div>
+            <div class="div-select">
+              <label class="label" for="specie-select">Tipo de mascota:</label>
+              <select
+                name="speciesGroup"
+                id="specie-select"
+                data-testid="select-filter"
+              >
+                <option value="" disable selected hidden>
+                  Elige una opción
+                </option>
+                <option value="Aves">Aves</option>
+                <option value="Animales Acuáticos">Acuáticos</option>
+                <option value="Domestico">Domesticos</option>
+                <option value="Pequeñas especies">Especies pequeñas</option>
+                <option value="Animales de Granja">Granja</option>
+                <option value="Animales Salvajes">Salvajes</option>
+              </select>
+            </div>
+            <div class="div-select">
+              <label class="label" for="film-select"
+                >Es de una película de:</label
+              >
+              <select
+                name="filmGenre"
+                id="film-select"
+                data-testid="select-filter"
+              >
+                <option value="" disable selected hidden>
+                  Elige una opción
+                </option>
+                <option value="Comedia">Comedia</option>
+                <option value="Infantil">Infantil</option>
+                <option value="Fantasía">Fantasía</option>
+                <option value="Musical">Musical</option>
+                <option value="Drama">Drama</option>
+                <option value="Romance">Romance</option>
+              </select>
+            </div>
+            <button id="btnClear" data-testid="button-clear">
+              Limpiar filtros
+            </button>
+          </div>
+        </aside>
+        <section id="root"></section>
+      </div>
     </main>
 
     <footer>
       <div class="container">
-      <p>Code By Pamela Briceño - Susana Equihua</p>
-    </div>
+        <p>Code By Pamela Briceño - Susana Equihua</p>
+      </div>
     </footer>
     <section class="modal ">
       <div class="modal-container">
@@ -118,13 +141,13 @@
         </div>
         <div class="container-percentage">
           <div class="stats-paragraph">
-            <p class="modal-paragrapgh">Solo el x% de las mascotas Disney son hembras</p>
+            <p class="modal-paragraph">Solo el<br><span id="genero" class="porcentaje"></span><br>de las mascotas Disney son hembras</p>
           </div>
           <div class="stats-paragraph">
-            <p class="modal-paragrapgh">La mayoría de las mascotas son animales <span id="genero"></span> y representan el ... del total de mascotas</p>
+            <p class="modal-paragraph">La mayoría de las mascotas son animales <span id="especie" class="valor"></span> y representan el<br><span id="numEspecie" class="porcentaje"></span><br>del total de mascotas</p>
           </div>
           <div class="stats-paragraph">
-            <p class="modal-paragrapgh">Estas mascotas aparecen mayormente en peliculas de ..., tienen un ... de participacion en comparación con otros generos</p>
+            <p class="modal-paragraph">Estas mascotas aparecen mayormente en peliculas de <span id="genreFilm" class="valor"></span> tienen un <br><span id="num-genreFilm" class="porcentaje"></span> <br>participacion en comparación con otros generos</p>
           </div>
       </div>
         <a href="#mainContenidoPrincipal" class="modal-close">Cerrar</a>
